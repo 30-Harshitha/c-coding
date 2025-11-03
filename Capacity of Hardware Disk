@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+
+int t,b,s,r=0;
+
+scanf("%d %d %d",&t,&b,&s);
+
+r=(2*t*s*b*512)/1024;
+
+printf("%d KB",r);
+
+return 0;
+}
