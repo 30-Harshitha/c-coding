@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+
+int sp, cp;
+
+float p=0,r=0;
+
+scanf("%d %d", &sp,&cp);
+
+p=cp-sp;
+
+r=(p/sp)*100;
+
+printf("%.2f",r);
+
+return 0;
+}
